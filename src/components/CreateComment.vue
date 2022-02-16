@@ -65,7 +65,7 @@ export default {
 
       axios({
         method: "POST",
-        url: "https://carolinep13-groupomania.herokuapp.com//api/comments",
+        url: "https://carolinep13-groupomania.herokuapp.com/api/comments",
         data: body,
         headers: {
           authorization: `Bearer ${this.token}`,

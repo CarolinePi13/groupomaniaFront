@@ -93,7 +93,7 @@ export default {
 
       axios({
         method: "PUT",
-        url: `https://carolinep13-groupomania.herokuapp.com//api/user/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com/api/user/${id}`,
         data: formData,
         headers: {
           authorization: `Bearer ${this.token}`,
