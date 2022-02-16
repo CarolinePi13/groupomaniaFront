@@ -117,7 +117,7 @@ export default {
       var body = formData;
       axios({
         method: "POST",
-        url: "http://localhost:3000/api/posts",
+        url: "carolinep13-groupomania.herokuapp.com/api/posts",
         data: body,
         headers: {
           authorization: `Bearer ${this.token}`,
