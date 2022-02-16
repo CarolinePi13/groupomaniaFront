@@ -70,7 +70,7 @@ export default {
 
       axios({
         method: "PUT",
-        url: `carolinep13-groupomania.herokuapp.com/api/user/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com//api/user/${id}`,
         data: formData,
         headers: {
           authorization: `Bearer ${this.token}`,
@@ -96,7 +96,7 @@ export default {
 
       axios({
         method: "DELETE",
-        url: `carolinep13-groupomania.herokuapp.com/api/user/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com//api/user/${id}`,
         headers: {
           authorization: `Bearer ${token}`,
           "content-type": "application/json",

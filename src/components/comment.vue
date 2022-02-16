@@ -102,7 +102,7 @@ export default {
 
       axios({
         method: "GET",
-        url: `carolinep13-groupomania.herokuapp.com/api/user/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com//api/user/${id}`,
         headers: {
           authorization: `Bearer ${this.token}`,
           "content-type": "application/json",
@@ -126,7 +126,7 @@ export default {
 
       axios({
         method: "DELETE",
-        url: `carolinep13-groupomania.herokuapp.com/api/comments/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com//api/comments/${id}`,
 
         headers: {
           authorization: `Bearer ${this.token}`,

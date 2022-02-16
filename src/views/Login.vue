@@ -272,7 +272,7 @@ export default {
 
       axios({
         method: "POST",
-        url: "carolinep13-groupomania.herokuapp.com/api/user/signup",
+        url: "https://carolinep13-groupomania.herokuapp.com//api/user/signup",
         data: body,
         headers: {
           Accept: "application/json",
@@ -316,7 +316,7 @@ export default {
       let isLoggedIn = true;
       axios({
         method: "POST",
-        url: "carolinep13-groupomania.herokuapp.com/api/user/login",
+        url: "https://carolinep13-groupomania.herokuapp.com//api/user/login",
         data: body,
         headers: {
           "content-type": "application/json",
