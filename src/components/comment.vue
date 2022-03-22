@@ -126,7 +126,7 @@ export default {
 
       axios({
         method: "DELETE",
-        url: `https://carolinep13-groupomania.herokuapp.comapi/comments/${id}`,
+        url: `https://carolinep13-groupomania.herokuapp.com/api/comments/${id}`,
 
         headers: {
           authorization: `Bearer ${this.token}`,
